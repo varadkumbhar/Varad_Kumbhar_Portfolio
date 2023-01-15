@@ -1,0 +1,127 @@
+nav.navbar.navbar-expand-lg.bg-light {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+ 
+}
+na.nav-link:hover{
+  color: #fda000;
+}
+
+i {
+  color: #0357a6;
+}
+
+button.btn.btn-secondary.sourceCode:hover {
+  background-color: #fdba00;
+  border: #fdba00;
+}
+.letTalk:hover {
+  background-color: white;
+}
+
+.emailMsg p {
+  color: rgb(0, 120, 167);
+}
+.emailMsg p:hover {
+  color: white;
+}
+
+.linkdinMsg p {
+  color: rgb(0, 120, 167);
+}
+
+.linkdinMsg p:hover {
+  color: white;
+}
+.flex-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+button.btn.letTalk.w-75 {
+  color: white;
+  background-color: #fdba00;
+  border-color: #fdba00;
+}
+
+button.btn.letTalk.w-75:hover {
+  color: black;
+  background-color: white;
+  border-color: #fdba00;
+}
+button.btn.dwnldResume.w-75:hover  {
+  color: white;
+  background-color: #fdba00;
+}
+button.btn.dwnldResume.w-75{
+  color: black;
+  background-color: white;
+  border-color: #fdba00;
+}
+button.btn.liveDemoBtn.mb-2.w-75 {
+  color: white;
+  background-color: #fdba00;
+}
+button.btn.liveDemoBtn.mb-2.w-75:hover {
+  color: black;
+  background-color: white;
+  border-color: #fdba00;
+}
+.gitBtn {
+  color: rgb(0, 120, 167);
+  border-color: rgb(0, 120, 167);
+}
+.gitBtn:hover {
+  color: white;
+  background-color: rgb(0, 120, 167);
+}
+.card {
+  box-shadow: rgba(0, 0, 0, 0.158) 0px 5px 15px;
+}
+
+.abtBoldText {
+  color: rgb(0, 120, 167);
+}
+.progress-bar.progress-bar-striped.progress-bar-animated {
+  background-color: #fdba00;
+}
+
+.navbar-nav {
+  display: flex;
+  justify-content: center;
+}
+
+
+
+/* .footer{
+    background-color:rgba(0, 0, 0, 0.295);
+  } */
+
+.footericon {
+  color: rgb(255, 179, 0);
+  text-decoration: none !important;
+}
+.footericon:hover {
+  color: rgb(131, 58, 180);
+}
+
+a:-webkit-any-link {
+  color: -webkit-link;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+a.navbar-brand {
+  color: var(--bs-navbar-brand-color);
+}
+
+/* mobliePhone mediaquery */
+
+@media screen and (max-width: 768) {
+  button.btn.btn-secondary.sourceCode {
+    display: none;
+  }
+  
+}
